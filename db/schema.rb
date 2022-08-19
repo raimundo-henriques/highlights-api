@@ -17,14 +17,14 @@ ActiveRecord::Schema[7.0].define(version: 2022_08_18_150316) do
   create_table "highlights", force: :cascade do |t|
     t.string "name"
     t.string "address"
-    t.string "coordinates", default: [], array: true
+    t.string "coordinates"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "routes", force: :cascade do |t|
-    t.string "starting_point", default: [], array: true
-    t.string "end_point", default: [], array: true
+    t.string "starting_point"
+    t.string "end_point"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
