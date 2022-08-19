@@ -1,3 +1,5 @@
+require "open-uri"
+
 class Api::V1::RoutesController < Api::V1::BaseController
   def show
     @route = Route.find(params[:id])
