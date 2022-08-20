@@ -27,6 +27,7 @@ Body
 
 Header
 `Content-Type: application/json`
+
 Body
 `{ "route": { "starting_point": "-9.142685,38.736946", "end_point": "-8.629932,41.150223" } `
 
@@ -44,6 +45,7 @@ After creating the route, the API redirects to the show action, returning the fo
 
 Header
 `Content-Type: application/json`
+
 Body
 `{ "route": { "starting_point": "-3.703339,40.416729" } `
 
