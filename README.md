@@ -3,13 +3,14 @@
 
 #### Create new route
 
-```http
-  POST /api/v1/routes
-```
 
-| Header | Body |
-| :-------- | | :-------- | 
-| `Content-Type: application/json` | `{ "route": { "starting_point": "${coordinates}", "end_point": "${coordinates}" } ` |
+  POST /api/v1/routes
+
+
+| Header |
+| `Content-Type: application/json` |
+| Body |
+|`{ "route": { "starting_point": "${coordinates}", "end_point": "${coordinates}" } ` |
 
 #### Get route
 
